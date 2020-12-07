@@ -6,7 +6,7 @@ tl.to(".text",{y:"0%", duration:1, stagger:0.14})
 // so we dont want to hide our text to 0% he hoga 
 // STAGGER ek k bad ek lane m kitna time lagana h 
 
-tl.to(".slider",{y:"-100%", duration:1, delay:0.5})
+tl.to(".slider",{y:"-100%", duration:1, delay:0.25})
 tl.to(".intro",{y:"-100%", duration:1},"-=1");
 
 tl.fromTo("nav", {opacity:0}, {opacity:1 , duration:1});
