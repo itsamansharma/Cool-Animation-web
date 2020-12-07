@@ -1,0 +1,81 @@
+main{
+    font-family: "heebo", sans-serif;
+}
+
+.landing{
+    min-height: 100vh;
+    /* min-width: 50vh; */
+    background: url(../img/jonas-jacobsson-2xaF4TbjXT0-unsplash.jpg);
+    background-size: cover;
+    padding: 0rem 5rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li{
+    padding-left: 10rem;
+    font-size: 1.2rem;
+    color: crimson;
+}
+#logo{
+    font-family:"lobster",cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+.big-text{
+    color: rgb(255, 72, 72);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    font-size: 5rem;
+    /* color: rgb(61,61,61); */
+}
+.intro{
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slider{
+    background: rgb(100, 109, 224);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: translatey(100%);
+}
+
+.intro-text{
+    color: rgb(234, 242, 248);
+    font-family: "heebo",sans-serif;
+    font-size: 2rem;
+}
+
+.hide{
+    background: black;   /*  black color to hide text in backgroung color */
+    overflow: hidden;
+}
+
+.hide span{
+    transform:  translateY(100%);
+    display: inline-block;  /* to move span up and down  */
+}
