@@ -38,16 +38,7 @@ nav{
     font-weight: lighter;
     font-size: 2rem;
 }
-.big-text{
-    /* backgroung-color: linear-gradient(to bottom right,rgb(19, 104, 126), green); */
-    color: limegreen;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%,-30%);
-    font-size: 5rem;
-    /* color: rgb(61,61,61); */
-}
+
 .intro{
     background: black;
     position: fixed;
@@ -88,4 +79,60 @@ nav{
 .hide span{
     transform:  translateY(100%);
     display: inline-block;  /* to move span up and down  */
+}
+
+
+
+.big-text{
+    /* backgroung-color: linear-gradient(to bottom right,rgb(19, 104, 126), green); */
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    font-size: 5rem;
+    /* color: rgb(61,61,61); */
+
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+    outline: none;
+    animation: aman 2s linear infinite;
+}
+
+@keyframes aman{
+    0%    {
+    color: #08a036;
+    text-shadow: none;
+    }
+    50%
+    {
+        color: rgb(49, 221, 178) ;
+        text-shadow:  0 0 2px white
+
+    }
+    100%{
+        color: rgb(9, 148, 158);
+        text-shadow: 0,0,10px white;
+    }
+}
+
+
+
+/* for tube light effect
+@keyframes aman{
+    0%,10% ,18%,20%,36%, 50%,65.1%,77%,80%,90%,92.1%
+    {
+    color: #1a831a;
+    text-shadow: none;
+    }
+    10.2%, 18.2%,20.3%,36.1%,50.3%,65.6%,77.1%,80.2%,90.1%,92.6%, 100%
+    {
+        color: rgb(30, 120, 143);
+        text-shadow:  0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 30px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 50px #03bcf4
+        ;
+
+    } */
 }
