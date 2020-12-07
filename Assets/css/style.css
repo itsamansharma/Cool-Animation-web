@@ -1,3 +1,6 @@
+body{
+    overflow: hidden;
+}
 main{
     font-family: "heebo", sans-serif;
 }
@@ -5,11 +8,15 @@ main{
 .landing{
     min-height: 100vh;
     /* min-width: 50vh; */
-    background: url(../img/jonas-jacobsson-2xaF4TbjXT0-unsplash.jpg);
+    background-image: linear-gradient(to bottom right,rgb(19, 104, 126), green);
     background-size: cover;
     padding: 0rem 5rem;
+    overflow: hidden;
 }
 
+section h2{
+
+}
 nav{
     display: flex;
     align-items: center;
@@ -25,7 +32,9 @@ nav{
 .nav-links li{
     padding-left: 10rem;
     font-size: 1.2rem;
-    color: crimson;
+    color: white;
+    font-family: "heebo", sans-serif;
+
 }
 #logo{
     font-family:"lobster",cursive;
@@ -33,7 +42,8 @@ nav{
     font-size: 2rem;
 }
 .big-text{
-    color: rgb(255, 72, 72);
+    /* backgroung-color: linear-gradient(to bottom right,rgb(19, 104, 126), green); */
+    color: limegreen;
     position: absolute;
     top: 30%;
     left: 50%;
@@ -55,7 +65,7 @@ nav{
 
 
 .slider{
-    background: rgb(100, 109, 224);
+    background-color: olivedrab;
     position: fixed;
     top: 0;
     left: 0;
@@ -64,6 +74,9 @@ nav{
     transform: translatey(100%);
 }
 
+#people{
+    color: olivedrab;
+}
 .intro-text{
     color: rgb(234, 242, 248);
     font-family: "heebo",sans-serif;
