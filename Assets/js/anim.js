@@ -1,6 +1,6 @@
 const tl = gsap.timeline({defaults: {ease:"power1.out"}})
 
-tl.to(".text",{y:"0%", duration:1, stagger:0.2})
+tl.to(".text",{y:"0%", duration:1, stagger:0.14})
 
 // .text for class , 0% to how much you want to hide
 // so we dont want to hide our text to 0% he hoga 

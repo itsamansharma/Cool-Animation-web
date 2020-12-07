@@ -14,9 +14,6 @@ main{
     overflow: hidden;
 }
 
-section h2{
-
-}
 nav{
     display: flex;
     align-items: center;
