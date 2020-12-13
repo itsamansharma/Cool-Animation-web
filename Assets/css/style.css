@@ -21,17 +21,17 @@ nav{
     min-height: 10vh;
 }
 .home:hover{
-    font-size: 30px;
+    font-size: 25px;
     color: black;
     transition: 0.5s;
 }
 .menu:hover{
-    font-size: 30px;
+    font-size: 25px;
     color: black;
     transition: 0.5s;
 }
 .connect:hover{
-    font-size: 30px;
+    font-size: 25px;
     color: black;
     transition: 0.5s;
 }
@@ -130,10 +130,78 @@ nav{
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
     outline: none;
 }
-#logo:hover{
+
+
+
+
+/* animated text k liye */
+
+#anim-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animatio
 
 }
+#anim-text path:nth-child(1){
+    stroke-dasharray: 259;
+    stroke-dashoffset: 259;
+    animation: aman 2s ease forwards 3s;
+}
 
+#anim-text path:nth-child(2){
+    stroke-dasharray: 542.674072265625;
+    stroke-dashoffset: 542.674072265625;
+    animation: aman 2s ease forwards 3.3s;
+}
+#anim-text path:nth-child(3){
+    stroke-dasharray: 525.234;
+    stroke-dashoffset: 525.234;
+    animation: aman 2s ease forwards 3.5s;
+}
+#anim-text path:nth-child(4){
+    stroke-dasharray: 533.4;
+    stroke-dashoffset: 533.4;
+    animation: aman 2s ease forwards 3.8s;
+}
+#anim-text path:nth-child(5){
+    stroke-dasharray: 231.75;
+    stroke-dashoffset: 231.75;
+    animation: aman 2s ease forwards 4.1s;
+}
+#anim-text path:nth-child(6){
+    stroke-dasharray: 568;
+    stroke-dashoffset: 568;
+    animation: aman 2s ease forwards 4.3s;
+}
+#anim-text path:nth-child(7){
+    stroke-dasharray: 605;
+    stroke-dashoffset: 605;
+    animation: aman 2s ease forwards 4.7s;
+}
+#anim-text path:nth-child(8){
+    stroke-dasharray: 525;
+    stroke-dashoffset: 525;
+    animation: aman 2s ease forwards 5.1s;
+}
+#anim-text path:nth-child(9){
+    stroke-dasharray: 563;
+    stroke-dashoffset: 563;
+    animation: aman 2s ease forwards 5.4s;
+}
+#anim-text path:nth-child(10){
+    stroke-dasharray: 268;
+    stroke-dashoffset: 268;
+    animation: aman 2s ease forwards 5.8s;
+}
+
+@keyframes aman{
+    to{
+        stroke-dashoffset:0;
+        /* stroke-dasharray: 0; */
+    }
+}
 
 
 /* for tube light effect
